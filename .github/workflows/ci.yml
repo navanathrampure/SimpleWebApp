@@ -1,4 +1,4 @@
-name: SimpleWebApp CI-CD
+name: SimpleWebApp CI
 
 on:
   push:
@@ -30,27 +30,3 @@ jobs:
         with:
           name: SimpleWebApp-JAR
           path: target/*.jar
-
-  deploy:
-    needs: build-and-test
-    runs-on: self-hosted
-
-    steps:
-
-      - name: Download JAR artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: SimpleWebApp-JAR
-          path: SimpleWebApp-JAR
-
-      - name: Start application
-        shell: powershell
-        run: |
-          $jar = Get-ChildItem "SimpleWebApp-JAR\*.jar" | Select-Object -First 1
-          Start-Process java -ArgumentList "-jar `"$($jar.FullName)`"" -RedirectStandardOutput "application.log" -RedirectStandardError "application-error.log"
-          Start-Sleep -Seconds 10
-
-      - name: Smoke test application
-        shell: powershell
-        run: |
-          Invoke-WebRequest -Uri "http://localhost:8080" -UseBasicParsing
