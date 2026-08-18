@@ -15,6 +15,6 @@ public class SimpleWebAppApplication {
 
     @GetMapping("/")
     public String home() {
-        return "Hello! My CI/CD application is working.";
+        return "Hello! My CI/CD application is working now.";
     }
 }
