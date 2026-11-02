@@ -1,0 +1,77 @@
+[33mcommit 427b7b8f749eb5b9e9d5ca3a3a73ad10245d57f1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: navanathrampure <navanathrampure@gmail.com>
+Date:   Wed Oct 28 13:04:19 2026 +0530
+
+    this is simple file
+
+[33mcommit 1d90a5820e90da01007292867af9cd1bd6b3ba1c[m
+Author: navanathrampure <navanathrampure@gmail.com>
+Date:   Wed Oct 28 12:57:22 2026 +0530
+
+    two files are saved test1 and test2
+
+[33mcommit 7d674771759718228733a19869a547f0c56657b8[m
+Author: navanathrampure <navanathrampure@gmail.com>
+Date:   Wed Oct 28 12:16:05 2026 +0530
+
+    demo file
+
+[33mcommit 5876e9e5bb4a1280edba0f1e3ba27156c645f376[m
+Author: Navanath Rampure <navanathrampure@gmail.com>
+Date:   Tue Aug 18 12:24:08 2026 +0530
+
+    code updated
+
+[33mcommit 5186d821bb40dafdca8e7aa2038f73a97edc6fbc[m
+Author: Navanath Rampure <navanathrampure@gmail.com>
+Date:   Mon Aug 17 21:21:36 2026 +0530
+
+    Add CD deployment and smoke test second
+
+[33mcommit af7e8f4addb54d19129e6df7ab201ad2b368fb50[m
+Author: Navanath Rampure <navanathrampure@gmail.com>
+Date:   Mon Aug 17 20:45:02 2026 +0530
+
+    Remove self-hosted deployment
+
+[33mcommit b3d13262ee426570a94f730e1f894b78819d7019[m
+Author: Navanath Rampure <navanathrampure@gmail.com>
+Date:   Mon Aug 17 19:50:36 2026 +0530
+
+    Run CD on self-hosted Windows runner
+
+[33mcommit c52d8f2effa97c15ac9e9dd1c0d010d65bde39d1[m
+Author: Navanath Rampure <navanathrampure@gmail.com>
+Date:   Mon Aug 17 19:44:00 2026 +0530
+
+    Run CD on self-hosted Windows runner
+
+[33mcommit b2aaa38c3311077c7f5ddd8d37935c01279c9367[m
+Author: Navanath Rampure <navanathrampure@gmail.com>
+Date:   Mon Aug 17 16:26:04 2026 +0530
+
+    Add CD deployment and smoke test
+
+[33mcommit 4458373e78063b113d43b736453df3ae8e740bbe[m
+Author: Navanath Rampure <navanathrampure@gmail.com>
+Date:   Mon Aug 17 15:57:39 2026 +0530
+
+    Upload JAR artifact in CI
+
+[33mcommit 3544ca8070d8941144a83d61817c5acbef5da9c2[m
+Author: Navanath Rampure <navanathrampure@gmail.com>
+Date:   Mon Aug 17 15:26:32 2026 +0530
+
+    Upload JAR artifact in CI
+
+[33mcommit 48a3cc5b25ff48f512efa9a4b368e2d441ddaa20[m
+Author: Navanath Rampure <navanathrampure@gmail.com>
+Date:   Mon Aug 17 14:43:54 2026 +0530
+
+    Add CI pipeline for SimpleWebApp
+
+[33mcommit 7e45c1cfc4e87bc03b85eb54663c974dc13fbc99[m
+Author: Navanath Rampure <navanathrampure@gmail.com>
+Date:   Mon Aug 17 14:04:02 2026 +0530
+
+    Initial SimpleWebApp project
